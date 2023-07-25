@@ -44,8 +44,6 @@ function GridItem({ tokenId, allowance, web3ModalRef }) {
 
 
   /* --------------------------- 👀 ⬇ ------------------------------ */
-  /* El problema de no devolver el número del owner que hizo el MINT está en esta función */
-  // Según chatGPT debo revisar que esté bien: DOGERPUPSNFT_CONTRACT_ADDRESS, dogerPupsNFTAbi y la función ownerOf
   const getOwnerOf = async (ID) => {
     try {
       const provider = await getProviderOrSigner(false, web3ModalRef);
@@ -63,7 +61,6 @@ function GridItem({ tokenId, allowance, web3ModalRef }) {
       console.log("Error finding owner:", tokenId);
     }
   }
-  /* El problema de no devolver el número del owner que hizo el MINT está en esta función */
   /* ---------------------------  👀 ⬆ ------------------------------ */
 
 
