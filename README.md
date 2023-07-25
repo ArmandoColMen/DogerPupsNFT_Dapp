@@ -1,4 +1,4 @@
-## My first test Dapp on GitHub - DogerPupsNFT
+## My first Test Dapp - DogerPupsNFT
 
 ### Udemy Course: DAPP mastery - Create token, NFT and DAO - Solidity & React
 
