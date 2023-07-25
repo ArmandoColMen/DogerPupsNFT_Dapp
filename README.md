@@ -2,10 +2,10 @@
 
 ### Udemy Course: DAPP mastery - Create token, NFT and DAO - Solidity & React
 
-### Technologies used for the smart contract:
-* Solidity
-* Hardhat
-* OpenZeppelin
-* Sepolia testnet
-* JavaScript
-* React js
+- ### Technologies used for the smart contract:
+> * _Solidity_
+> * _Hardhat_
+> * _OpenZeppelin_
+> * _Sepolia testnet_
+> * _JavaScript_
+> * _React js_
